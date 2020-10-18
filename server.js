@@ -17,7 +17,6 @@ app.use(routes);
 
 // Connect to the Mongo DB
 mongoose.connect(
-  "mongodb+srv://abahrani:5432947Ab@cluster0.s7ehm.mongodb.net/reactreadinglist?retryWrites=true&w=majority",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
